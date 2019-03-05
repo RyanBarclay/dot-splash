@@ -2,6 +2,13 @@ const N_DOTS = 200
 
 // Helper to generate random IDs such that we can easily
 // refer to each node
+
+/*
+TODO:
+* Make each circle an object with 2 velocties(x: v:)
+* Make the shape look like the black dots in /Texture/SnapChatBox.jpg
+* When mouse moves will change velocties based off of some random value
+*/
 function getRandomId(prefix) {
   return `${prefix}-${Math.round(Date.now() * Math.random())}`
 }
